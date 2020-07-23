@@ -51,6 +51,7 @@ class Checkout extends React.Component {
 
     // Why am I getting errors with '(e)' but not with 'e'?
     onSubmit = e => {
+        // The functionality here is hit or miss. Auto complete seems to break stuff. 
         if (!this.state.email) {
             e.preventDefault();
             this.setState(() => ({emailError: 'Please provide an Email.'}));
@@ -136,6 +137,7 @@ class Checkout extends React.Component {
     }
 }
 
+// Still kinda unclear about mapStateToProps -  I have a general idea, but the details are still fuzzy
 Checkout.propTypes = {
     selectedSpot: PropTypes.object,
 };
