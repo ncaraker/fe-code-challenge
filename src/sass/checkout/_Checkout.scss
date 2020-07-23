@@ -1,3 +1,103 @@
+// Checkout Card
 .Checkout {
-    //
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Checkout-Card {
+    align-items: center;
+    background: $color-white;
+    border: 1px solid $color-dashboard;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+// Checkout Header
+.Checkout__Header {
+    align-items: center;
+    background: $color-shift;
+    border-radius: 7px 7px 0 0;
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    justify-content: flex-start;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.Checkout__Header > a {
+    color: $color-white;
+    font-weight: 600;
+}
+
+// Checkout Info
+.Checkout__Info {
+    align-items: center;
+    border-bottom: 0.5px solid $color-dashboard;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+    max-width: 360px;
+    width: 100%;
+}
+
+.Checkout__Info__Image > img {
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.Checkout__Info__Details {
+    border-radius: 5px;
+    flex-grow: 2;
+    margin-left: 2rem;
+}
+
+// Checkout Form
+.Checkout__Form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0;
+    width: 100%;
+}
+
+.Checkout__Form > label {
+    color: $color-cement;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.Checkout__Form > input {
+    border: 1px solid $color-dashboard;
+    border-radius: 4px;
+    height: 3.5rem;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.Checkout__Form > input:focus {
+    border-radius: 4px;
+    outline: 1px solid $color-go;
+}
+
+.Checkout__Form > a {
+    text-align: right;
+}
+
+.Checkout__Form__Button {
+    background-color: $color-go;
+    border: 1px solid $color-go;
+    margin-bottom: 20px;
+}
+
+.Checkout__Form__Button:not([disabled]):hover {
+    background-color: $color-accelerate;
+    border: 1px solid $color-accelerate;
 }

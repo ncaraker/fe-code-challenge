@@ -21,9 +21,11 @@
   },
   "devDependencies": {
     "@spothero/eslint-config": "1.9.0",
+    "@spothero/prettier-config": "0.1.1",
     "@spothero/stylelint-config": "1.4.0",
-    "concurrently": "4.1.0",
-    "json-server": "0.14.2",
+    "concurrently": "5.2.0",
+    "json-server": "0.16.1",
+    "prettier": "2.0.5",
     "stylelint": "13.2.0",
     "stylelint-webpack-plugin": "1.2.3"
   },
@@ -37,12 +39,14 @@
     "core-js": "3.0.1",
     "form-serialize": "0.7.2",
     "history": "4.9.0",
-    "node-sass": "4.13.1",
+    "node-sass": "4.14.1",
     "prop-types": "15.7.2",
     "react": "16.13.0",
     "react-app-rewired": "2.1.5",
     "react-dom": "16.13.0",
+    "react-hook-form": "6.0.8",
     "react-hot-loader": "4.8.4",
+    "react-modal": "3.11.2",
     "react-redux": "7.0.3",
     "react-router-dom": "5.0.0",
     "react-scripts": "3.4.0",
@@ -52,5 +56,7 @@
     "regenerator-runtime": "0.13.2",
     "transitionEnd": "1.0.2"
   },
-  "browserslist": ["defaults"]
+  "browserslist": [
+    "defaults"
+  ]
 }

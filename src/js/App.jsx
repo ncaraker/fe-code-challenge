@@ -6,7 +6,7 @@ import {
     Route,
     Switch
 } from 'react-router-dom';
-import Checkout from './checkout/Checkout';
+import Checkout from './checkout/CheckoutV2';
 import Confirmation from './confirmation/Confirmation';
 import Search from './search/Search';
 import '../sass/main.scss';
