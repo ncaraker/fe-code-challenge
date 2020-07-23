@@ -8,7 +8,6 @@ import {updateSelected} from '../spot/spot-actions';
 
 /*
  I realize I need form validation in here, but hooking it up within a stateless functional component is really stumping me.
- I had set this up in my class within a class-based component but when I try to implement that one (CheckoutV2.jsx) I'm having a tough time passing props down into the Checkout component.
 */
 
 const Checkout = ({
@@ -92,4 +91,3 @@ const mapDispatchToProps = {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Checkout);
-

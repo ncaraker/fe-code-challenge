@@ -47,4 +47,3 @@ export default class SpotDetailsModal extends React.Component {
         );
     }
 }
-

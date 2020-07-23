@@ -7,6 +7,7 @@ import PropTypes from 'prop-types';
 import {updateSelected} from '../spot/spot-actions';
 
 class Checkout extends React.Component {
+    // I'm not clear on what propTypes is at all, I'm only pattern-matching from previous pages here.
     static propTypes = {
         selectedSpot: PropTypes.object,
         onSubmit: PropTypes.func
@@ -66,6 +67,7 @@ class Checkout extends React.Component {
                 phoneNumber: this.state.phoneNumber
             });
 
+            // I'm stummped on how to proceed to the confirmation page
             return <Redirect to="/confirmation" />;
         }
     }
@@ -155,4 +157,3 @@ const mapDispatchToProps = {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Checkout);
-
